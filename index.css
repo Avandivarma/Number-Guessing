@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+  background-image: url("night-sky.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  /* background-color:#ADD8E6; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 30px;
+  box-shadow: 10px 10px 40px;
+  border-radius: 20px;
+}
+
+#title {
+  position: absolute;
+  margin-bottom: 18%;
+  /* background-color: yellow; */
+  z-index: 1;
+  font-size: larger;
+  font-size: 30px;
+  margin-right: 20px;
+  color: rgb(10, 217, 7);
+}
+button {
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(10, 244, 61);
+}
+#input-box {
+  color: rgb(10, 244, 61);
+}
+#input {
+  font-size: 30px;
+}
+#input-box p {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#at {
+  position: absolute;
+  margin-bottom: 32%;
+  /* background-color: yellow; */
+  z-index: 1;
+  font-size: larger;
+  font-size: 30px;
+  margin-left: 25%;
+  color: red;
+}
+@media screen and (max-width: 450px) {
+  #container {
+    width: 350px;
+    height: 500px;
+    /* background-color:#ADD8E6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px;
+    border-radius: 20px;
+  }
+  #at {
+    position: absolute;
+    margin-bottom: 110%;
+    /* background-color: yellow; */
+    z-index: 1;
+    font-size: larger;
+    font-size: 30px;
+    margin-left: 40%;
+    color: red;
+  }
+
+  #title {
+    position: absolute;
+    margin-bottom: 60%;
+    /* background-color: yellow; */
+    z-index: 1;
+    font-size: larger;
+    font-size: 25px;
+    margin-right: 20px;
+    color: rgb(10, 217, 7);
+  }
+  #input {
+    font-size: 25px;
+  }
+  #input-box label {
+    font-size: 25px;
+  }
+  button {
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(10, 244, 61);
+  }
+}
